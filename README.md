@@ -43,9 +43,9 @@ Also, a function so that the pitch of my sounds can be changed every time the se
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![http://g.recordit.co/5mionyTLpz.gif](gif1-link-here)
-![http://g.recordit.co/47NXAKsB2f.gif](gif2-link-here)
-![http://g.recordit.co/qJJMGblHso.gif](gif3-link-here)
+![](http://g.recordit.co/5mionyTLpz.gif)
+![](http://g.recordit.co/47NXAKsB2f.gif)
+![](http://g.recordit.co/qJJMGblHso.gif)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
