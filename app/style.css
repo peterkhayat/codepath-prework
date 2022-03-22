@@ -1,0 +1,133 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 2rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: slategrey;
+  color: white;
+}
+h1 {
+  font-family: georgia, verdana, arial, sans-serif;
+  color: yellow;
+}
+button {
+  padding: 15px;
+  border-radius: 50px;
+}
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+}
+
+#button1 > #img1 {
+  visibility: hidden;
+}
+#button1:active > #img1 {
+  visibility: visible;
+}
+#button1.lit > #img1 {
+  visibility: visible;
+}
+#button1 {
+  background: lightgreen;
+}
+
+#button1:active,
+#button1.lit {
+  background: green;
+}
+
+#button2 > #img2 {
+  visibility: hidden;
+}
+
+#button2:active > #img2 {
+  visibility: visible;
+}
+#button2.lit > #img2 {
+  visibility: visible;
+}
+#button2 {
+  background: lightblue;
+}
+
+#button2:active,
+#button2.lit {
+  background: blue;
+}
+
+#button3 > #img3 {
+  visibility: hidden;
+}
+#button3:active > #img3 {
+  visibility: visible;
+}
+#button3.lit > #img3 {
+  visibility: visible;
+}
+#button3 {
+  background: pink;
+}
+#button3:active,
+#button3.lit {
+  background: red;
+}
+
+#button4 > #img4 {
+  visibility: hidden;
+}
+#button4:active > #img4 {
+  visibility: visible;
+}
+#button4.lit > #img4 {
+  visibility: visible;
+}
+#button4 {
+  background: lightyellow;
+}
+#button4:active,
+#button4.lit {
+  background: yellow;
+}
+
+#button5 > #img5 {
+  visibility: hidden;
+}
+#button5:active > #img5 {
+  visibility: visible;
+}
+#button5.lit > #img5 {
+  visibility: visible;
+}
+#button5 {
+  background: orange;
+}
+#button5:active,
+#button5.lit {
+  background: brown;
+}
+
+.hidden {
+  display: none;
+}
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}

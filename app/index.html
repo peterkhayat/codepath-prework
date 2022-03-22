@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Hello world!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>Light and Sound Memory Game</h1>
+    <p>Welcome to the game. Press start to begin!</p>
+    <button id="startBtn" onclick="startGame()">Start</button>
+    <button id="stopBtn" onclick="stopGame()" class="hidden">Stop</button>
+    <div id="chancesText" class="hidden">
+      Chances Left: <span id="display"></span>
+    </div>
+    <div id="timerText" class="hidden">
+      Time left = <span id="timer"></span>
+    </div>
+    <div id="gameButtonArea">
+      <button
+        id="button1"
+        onclick="guess(1)"
+        onmousedown="startTone(1)"
+        onmouseup="stopTone(1)"
+      >
+        <img
+          id="img1"
+          src="https://cdn.glitch.global/1007974b-b24a-4a3b-879c-2fa9cd23a62f/bbyoda-1575303784.jpeg?v=1647662434110"
+          alt="There should have been a picture here"
+        />
+      </button>
+      <button
+        id="button2"
+        onclick="guess(2)"
+        onmousedown="startTone(2)"
+        onmouseup="stopTone(2)"
+      >
+        <img
+          id="img2"
+          src="https://cdn.glitch.global/1007974b-b24a-4a3b-879c-2fa9cd23a62f/bggtyfg.jpg?v=1647662434325"
+          alt="There should have been a picture here"
+        />
+      </button>
+      <button
+        id="button3"
+        onclick="guess(3)"
+        onmousedown="startTone(3)"
+        onmouseup="stopTone(3)"
+      >
+        <img
+          id="img3"
+          src="https://cdn.glitch.global/1007974b-b24a-4a3b-879c-2fa9cd23a62f/9lAJtx.jpg?v=1647662434619"
+          alt="There should have been a picture here"
+        />
+      </button>
+      <button
+        id="button4"
+        onclick="guess(4)"
+        onmousedown="startTone(4)"
+        onmouseup="stopTone(4)"
+      >
+        <img
+          id="img4"
+          src="https://cdn.glitch.global/1007974b-b24a-4a3b-879c-2fa9cd23a62f/1_tbEZwCEc0-RmsUoEFxyVDQ.png?v=1647662436055"
+          alt="There should have been a picture here"
+        />
+      </button>
+      <button
+        id="button5"
+        onclick="guess(5)"
+        onmousedown="startTone(5)"
+        onmouseup="stopTone(5)"
+      >
+        <img
+          id="img5"
+          src="https://cdn.glitch.global/1007974b-b24a-4a3b-879c-2fa9cd23a62f/Balloon-Interesting-facts-825x350.png?v=1647662436555"
+          alt="There should have been a picture here"
+        />
+      </button>
+
+      <audio
+        src="https://cdn.glitch.global/1007974b-b24a-4a3b-879c-2fa9cd23a62f/War%20Drum%20Sound%20Effect.mp3?v=1647626234492"
+        id="myAudio1"
+      ></audio>
+      <audio
+        src="https://cdn.glitch.global/1007974b-b24a-4a3b-879c-2fa9cd23a62f/piano%20%20%20sound%20effect.mp3?v=1647626235022"
+        id="myAudio2"
+      ></audio>
+      <audio
+        src="https://cdn.glitch.global/1007974b-b24a-4a3b-879c-2fa9cd23a62f/Audience%20Clapping%20-%20Sound%20Effect.mp3?v=1647626235087"
+        id="myAudio3"
+      ></audio>
+      <audio
+        src="https://cdn.glitch.global/1007974b-b24a-4a3b-879c-2fa9cd23a62f/audio.mp3?v=1647618867524"
+        id="myAudio4"
+      ></audio>
+      <audio
+        src="https://cdn.glitch.global/1007974b-b24a-4a3b-879c-2fa9cd23a62f/Thunder%20Clap%20Sound%20Effect%20HD%20(Best%20Thunder%20Quality).mp3?v=1647626235306"
+        id="myAudio5"
+      ></audio>
+    </div>
+  </body>
+</html>
