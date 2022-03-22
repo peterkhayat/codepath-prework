@@ -47,6 +47,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
+
 [To help complete my submission, I used every resource that was on the pre-work page. This includes all the instructions that were outlined on the webpage along with the links that were made available.
 This was my first time working with HTML, CSS and JavaScript, so I really took my time familiarizing myself with these coding languages and interphases. 
 Additionally, I used the following websites:
@@ -57,6 +58,7 @@ https://stackoverflow.com/questions/17636310/play-audio-and-restart-it-onclick
 ]
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
+
 [The first challenge I had to overcome was learning JavaScript, CSS and HTML. Although they are  new and unlike other languages I know, it was really fun and exciting getting to learn these languages. I always wanted to learn these languages but never had the guidance. This project was perfect in getting me to start learning about web development.
 The required part of the pre-work was easy to code because of how well we were guided.
 The optional part was challenging because it tested my understanding of both the code and everything we were taught. I had some problems figuring out how to add a timer, a picture and some sounds. I overcame this problem by going over the given website and revisiting the code to know how it works in details. I had to use visibility=visible and visibility=invisible which I had to find by myself. The audio was challenging because I couldn’t figure out how to reset my audio at every use. And finally, the timer because I didn’t know where to implement the function and to add a timer on the webpage.
@@ -64,11 +66,13 @@ The optional part was challenging because it tested my understanding of both the
 ]
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
+
 [I wonder how can I take a simple website like the one I did and make it more user friendly.  My project works as intended but I can think of many improvements regarding both functional and visual improvements. For instance, being able to add in interactive features to engage the user, or understanding concepts of aesthetics in the realm of web design to attract and appeal to the people visiting my website are fields of knowledge I am interested in.
 In addition, everything I work on is considered front-end and I wonder what the backend looks like and how it is connected to the front-end.
 ]
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
+
 [I took as much time as I needed to implement all of the required and optional function. I would have liked to add some more features but I was limited by the knowledge I have in those languages. For example, I would have liked to add a slider that decides how many buttons are on the website. Also, a function so that the pitch of my sounds can be changed every time the sequence is changed.]
 
 
