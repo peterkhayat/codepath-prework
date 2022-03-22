@@ -34,8 +34,10 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [Add a slider that decides how many buttons are on the website.
-Also, a function so that the pitch of my sounds can be changed every time the sequence is changed.] List anything else that you can get done to improve the app!
+- [] List anything else that you can get done to improve the app!
+
+Add a slider that decides how many buttons are on the website.
+Also, a function so that the pitch of my sounds can be changed every time the sequence is changed.
 
 
 ## Video Walkthrough (GIF)
